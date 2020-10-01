@@ -150,3 +150,169 @@
     text-align: center;
   }
 }
+
+
+
+
+
+
+.container-fluid {
+  margin: 0;
+  .row {
+    //width: 100vw;
+    .banner-half {
+      height: 70vh;
+      width: 100vw;
+    }
+    .banner-txt {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .banner-left-inner {
+        width: 330px !important;
+      }
+      h1 {
+        font-weight: bold;
+        color: #172A53;
+      }
+      p {
+        color: #6B788C;
+      }
+      .banner-left-inner-long {
+        width: 450px !important;
+      }
+    }
+    .banner-right {
+      background-image: asset-url('dinner-party-copy.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}
+
+.at-deri-dari {
+  .row {
+    background-color: #F7F7F7;
+  }
+  .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .img-container-inner {
+      height: 75%;
+      width: 75%;
+      background-image: asset-url('cooking-copy.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 10px;
+    }
+  }
+}
+
+.three-steps {
+  background-color: #172A53;
+  padding: 50px;
+  h2 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  .bullet-point {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    i {
+      color: #F7984A;
+      font-size: 45px;
+    }
+    p {
+      margin-top: 10px;
+      text-align: center;
+      color: white;
+    }
+  }
+}
+
+.why-deri-dari {
+  .div-header {
+    margin-top: 65px;
+    text-align: center;
+    font-weight: bold;
+    color: #172A53;
+  }
+  .row-white {
+    background-color: white !important;
+  }
+  .row-grey {
+    background-color: #F7F7F7 !important;
+  }
+}
+
+/*
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  #banner-left {
+
+  }
+  #banner-right {
+    background-image: asset-url('dinner-party-copy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+

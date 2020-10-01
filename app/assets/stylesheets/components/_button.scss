@@ -2,12 +2,34 @@
   background: #F15D2E;
   padding: 10px 20px;
   border-radius: 30px;
-  color: white;
+  color: #172A53;
   width: fit-content;
 }
 
-a:hover {
+.button:hover {
   text-decoration: none;
-  color: white;
-  background: #F7984A;
+  color: #172A53;
+  background: white;
+}
+
+.button-two {
+  display: flex;
+  align-items: center;
+  p {
+    margin-bottom: 0;
+    margin-right: 10px;
+    color: #F15D2E !important;
+  }
+  i {
+    color: #F15D2E !important;
+  }
+}
+
+.button-two:hover {
+  p {
+    text-decoration: underline !important;
+  }
+  i {
+    text-decoration: none !important;
+  }
 }
