@@ -14,6 +14,14 @@
     justify-content: space-around;
     background: #F7984A;
     height: 100%;
+    .footer-top-left-logo {
+    height: 180px;
+    background-image: asset-url('DeriDari_ApprovedLogo_FixedColours-copy.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 180px;
+    }
   }
   .footer-top-right {
     background: #172A53;

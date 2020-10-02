@@ -14,3 +14,12 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.navbar-brand {
+  background-image: asset-url('DeriDari_ApprovedLogo_FixedColours-copy.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent !important;
+  width: 45px;
+}
