@@ -44,7 +44,7 @@
     border-top-left-radius: 10px;
   }
   .card-desc {
-    height: 200px;
+    height: 250px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     .exp-name {
@@ -61,10 +61,14 @@
       }
     }
     .card-tags {
-      display: flex;
-      align-items: center;
+      //display: flex;
+      //align-items: center;
       padding: 0px 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
       .tag {
+       //margin-right: 10px;
        display: flex;
        align-items: center;
        justify-content: space-around;
@@ -75,6 +79,7 @@
         padding: 7px;
         font-weight: lighter;
         font-size: smaller;
+        text-align: center;
       }
     }
   }
